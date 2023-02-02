@@ -513,15 +513,49 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-52 {
   height: 13rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.min-h-full {
+  min-height: 100%;
 }
 
 .w-52 {
   width: 13rem;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .bg-emerald-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(16 185 129 / var(--tw-bg-opacity));
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
