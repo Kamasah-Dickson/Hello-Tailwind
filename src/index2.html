@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../build/css/style.css" />
+
+		<title>Document</title>
+	</head>
+	<body class="bg-gray-800 text-white">
+		<header
+			class="fixed top-0 left-0 z-10 w-full bg-gray-900 shadow-sm shadow-green-500"
+		>
+			<div class="mx-auto flex w-full max-w-7xl justify-between p-8">
+				<h1 class="text-xl font-bold text-white">
+					Hello.
+					<span class="text-red-500">There</span>
+				</h1>
+				<ul class="flex gap-5">
+					<li class="list-none">
+						<a class="decoration-0 hover:text-orange-400" href="#home">Home</a>
+					</li>
+					<li>
+						<a class="decoration-0 hover:text-orange-400" href="#about"
+							>About</a
+						>
+					</li>
+					<li>
+						<a class="decoration-0 hover:text-orange-400" href="#services"
+							>Services</a
+						>
+					</li>
+					<li>
+						<a class="decoration-0 hover:text-orange-400" href="#contact"
+							>Contact</a
+						>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main class="p-5">
+			<div id="home">
+				<section
+					class="mx-auto mt-16 flex min-h-screen max-w-6xl scroll-m-5 flex-col-reverse items-center justify-between gap-10 md:flex-row"
+				>
+					<div class="w-full max-w-lg flex-1">
+						<h1 class="mb-5 text-4xl font-bold md:text-6xl">
+							Hello <span class="text-green-500"> Tailwind</span>
+						</h1>
+						<p class="text-lg font-light md:text-xl">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Architecto incidunt deserunt quibusdam omnis molestiae doloribus
+							officia enim maxime placeat assumenda eveniet accusantium
+							molestias provident eum, harum ipsa officiis quae dolorem!
+						</p>
+					</div>
+					<div
+						class="relative h-full w-full max-w-lg flex-1 flex-shrink rounded-full"
+					>
+						<div
+							class="overlay absolute flex h-full w-full items-center justify-center rounded-full text-center opacity-0 transition-opacity hover:cursor-pointer hover:bg-[#ff11002f] hover:opacity-100"
+						>
+							<p class="text-5xl font-bold">🔥🔥🔥</p>
+						</div>
+						<img
+							class="h-full w-full rounded-full"
+							src="./img/EgLF6Jmi_4x.jpg"
+							alt="Painting"
+						/>
+					</div>
+				</section>
+			</div>
+
+			<div id="about">
+				<section>
+					<h2 class="text-center text-6xl">About</h2>
+				</section>
+			</div>
+		</main>
+	</body>
+</html>

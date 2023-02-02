@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-	background-color: red;
-	color: white;
-	display: flex;
-	align-items: center;
-	height: 100vh;
-} */
+.h-screen-80 {
+	height: calc(100vh - 92px);
+}
